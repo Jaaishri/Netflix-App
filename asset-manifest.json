@@ -1,0 +1,20 @@
+{
+  "files": {
+    "main.css": "/netflixreactcards/static/css/main.3670fd67.chunk.css",
+    "main.js": "/netflixreactcards/static/js/main.81c6af7e.chunk.js",
+    "main.js.map": "/netflixreactcards/static/js/main.81c6af7e.chunk.js.map",
+    "runtime-main.js": "/netflixreactcards/static/js/runtime-main.3949286e.js",
+    "runtime-main.js.map": "/netflixreactcards/static/js/runtime-main.3949286e.js.map",
+    "static/js/2.0f8f94b5.chunk.js": "/netflixreactcards/static/js/2.0f8f94b5.chunk.js",
+    "static/js/2.0f8f94b5.chunk.js.map": "/netflixreactcards/static/js/2.0f8f94b5.chunk.js.map",
+    "index.html": "/netflixreactcards/index.html",
+    "static/css/main.3670fd67.chunk.css.map": "/netflixreactcards/static/css/main.3670fd67.chunk.css.map",
+    "static/js/2.0f8f94b5.chunk.js.LICENSE.txt": "/netflixreactcards/static/js/2.0f8f94b5.chunk.js.LICENSE.txt"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.3949286e.js",
+    "static/js/2.0f8f94b5.chunk.js",
+    "static/css/main.3670fd67.chunk.css",
+    "static/js/main.81c6af7e.chunk.js"
+  ]
+}
