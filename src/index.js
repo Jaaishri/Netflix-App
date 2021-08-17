@@ -1,17 +1,49 @@
 import React from 'react';
-import ReactDOM from 'react-dom';
+import ReactDOM from  'react-dom';
+import Card from './Cards';
 import './index.css';
-import App from './App';
-import reportWebVitals from './reportWebVitals';
+import Sdata from './Sdata';
+
+//console.log(Sdata);
+
+function netflixCard(val){         //function netflixCard(val)
+  console.log(val);
+  return(
+    <Card 
+imgsrc= {val.imgsrc}
+title = {val.title}
+sname = {val.sname}
+link = {val.link}
+/>
+
+  )
+}
+
 
 ReactDOM.render(
-  <React.StrictMode>
-    <App />
-  </React.StrictMode>,
+  <>
+  <h1 className = "heading_style"> list of top 5 Netflix series in 2021</h1>
+
+
+
+{Sdata.map(netflixCard)} 
+  </>,
   document.getElementById('root')
 );
 
-// If you want to start measuring performance in your app, pass a function
-// to log results (for example: reportWebVitals(console.log))
-// or send to an analytics endpoint. Learn more: https://bit.ly/CRA-vitals
-reportWebVitals();
+
+
+//Short cut  method to write map 
+// {Sdata.map((val,index) => {         //function netflixCard(val)
+  
+//   return(
+//     <Card 
+// imgsrc= {val.imgsrc}
+// title = {val.title}
+// sname = {val.sname}
+// link = {val.link}
+// />
+
+//   );
+// })
+// }
